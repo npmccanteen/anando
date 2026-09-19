@@ -1,0 +1,162 @@
+[
+  {
+    "term": "Brachial",
+    "bangla": "বাহু সংক্রান্ত",
+    "pronunciation": "ব্রেকিয়াল",
+    "root": "Brachio",
+    "type": "adjective",
+    "example": "Brachial artery = বাহুর ধমনি"
+  },
+  {
+    "term": "Carditis",
+    "bangla": "হৃদপিণ্ডের প্রদাহ",
+    "pronunciation": "কার্ডাইটিস",
+    "root": "Cardi + itis",
+    "type": "noun",
+    "example": "Myocarditis = হৃদপেশির প্রদাহ"
+  },
+  {
+    "term": "Nephron",
+    "bangla": "কিডনির কার্যকরী একক",
+    "pronunciation": "নেফ্রন",
+    "root": "Nephro",
+    "type": "noun",
+    "example": "প্রতিটি কিডনিতে প্রায় ১০ লাখ নেফ্রন থাকে"
+  },
+  {
+    "term": "Hepatomegaly",
+    "bangla": "যকৃত বড় হয়ে যাওয়া",
+    "pronunciation": "হেপাটোমেগালি",
+    "root": "Hepato + megaly",
+    "type": "noun",
+    "example": "Liver cirrhosis-এ hepatomegaly হতে পারে"
+  },
+  {
+    "term": "Osteology",
+    "bangla": "অস্থিবিদ্যা",
+    "pronunciation": "অস্টিওলজি",
+    "root": "Osteo + logy",
+    "type": "noun",
+    "example": "Anatomy-র একটি শাখা যা হাড় নিয়ে আলোচনা করে"
+  },
+  {
+    "term": "Superior",
+    "bangla": "উপরের দিকে",
+    "pronunciation": "সুপিরিয়র",
+    "root": "Super",
+    "type": "adjective",
+    "example": "Heart is superior to the diaphragm"
+  },
+  {
+    "term": "Inferior",
+    "bangla": "নিচের দিকে",
+    "pronunciation": "ইনফিরিয়র",
+    "root": "Infer",
+    "type": "adjective",
+    "example": "Stomach is inferior to the lungs"
+  },
+  {
+    "term": "Anterior",
+    "bangla": "সামনের দিকে",
+    "pronunciation": "অ্যান্টেরিয়র",
+    "root": "Ante",
+    "type": "adjective",
+    "example": "Sternum is anterior to the heart"
+  },
+  {
+    "term": "Posterior",
+    "bangla": "পেছনের দিকে",
+    "pronunciation": "পসটেরিয়র",
+    "root": "Post",
+    "type": "adjective",
+    "example": "Spine is posterior to the heart"
+  },
+  {
+    "term": "Medial",
+    "bangla": "মধ্যরেখার দিকে",
+    "pronunciation": "মিডিয়াল",
+    "root": "Medi",
+    "type": "adjective",
+    "example": "The nose is medial to the eyes"
+  },
+  {
+    "term": "Lateral",
+    "bangla": "মধ্যরেখা থেকে দূরে",
+    "pronunciation": "ল্যাটেরাল",
+    "root": "Later",
+    "type": "adjective",
+    "example": "The eyes are lateral to the nose"
+  },
+  {
+    "term": "Proximal",
+    "bangla": "দেহের কেন্দ্রের কাছে",
+    "pronunciation": "প্রক্সিমাল",
+    "root": "Proxim",
+    "type": "adjective",
+    "example": "Shoulder is proximal to the elbow"
+  },
+  {
+    "term": "Distal",
+    "bangla": "দেহের কেন্দ্র থেকে দূরে",
+    "pronunciation": "ডিস্টাল",
+    "root": "Dist",
+    "type": "adjective",
+    "example": "Fingers are distal to the wrist"
+  },
+  {
+    "term": "Cardio",
+    "bangla": "হৃদয় সংক্রান্ত",
+    "pronunciation": "কার্ডিও",
+    "root": "Prefix",
+    "type": "prefix",
+    "example": "Cardiology = হৃদবিজ্ঞান"
+  },
+  {
+    "term": "Neuro",
+    "bangla": "স্নায়ু সংক্রান্ত",
+    "pronunciation": "নিউরো",
+    "root": "Prefix",
+    "type": "prefix",
+    "example": "Neurology = স্নায়ুবিজ্ঞান"
+  },
+  {
+    "term": "-itis",
+    "bangla": "প্রদাহ",
+    "pronunciation": "আইটিস",
+    "root": "Suffix",
+    "type": "suffix",
+    "example": "Arthritis = অস্থিসন্ধির প্রদাহ"
+  },
+  {
+    "term": "-ology",
+    "bangla": "বিদ্যা / অধ্যয়ন",
+    "pronunciation": "অলজি",
+    "root": "Suffix",
+    "type": "suffix",
+    "example": "Histology = টিস্যুবিদ্যা"
+  },
+  {
+    "term": "-megaly",
+    "bangla": "বড় হয়ে যাওয়া",
+    "pronunciation": "মেগালি",
+    "root": "Suffix",
+    "type": "suffix",
+    "example": "Splenomegaly = প্লীহা বড় হওয়া"
+  },
+  {
+    "term": "Gastro",
+    "bangla": "পেট সংক্রান্ত",
+    "pronunciation": "গ্যাস্ট্রো",
+    "root": "Prefix",
+    "type": "prefix",
+    "example": "Gastritis = পেটের প্রদাহ"
+  },
+  {
+    "term": "Pulmo",
+    "bangla": "ফুসফুস সংক্রান্ত",
+    "pronunciation": "পালমো",
+    "root": "Prefix",
+    "type": "prefix",
+    "example": "Pulmonary artery = ফুসফুসের ধমনি"
+  }
+]
