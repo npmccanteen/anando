@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dictionary - MedTerm</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>📖 Dictionary</h1>
+    <a href="index.html" class="back-btn">← Home</a>
+  </header>
+
+  <main>
+    <div class="search-box">
+      <input type="text" id="search" placeholder="🔍 টার্ম খুঁজুন (English বা বাংলা)..." />
+    </div>
+
+    <div class="filter-row">
+      <select id="filter-type">
+        <option value="">সব ধরন</option>
+        <option value="noun">Noun</option>
+        <option value="adjective">Adjective</option>
+        <option value="prefix">Prefix</option>
+        <option value="suffix">Suffix</option>
+        <option value="root">Root</option>
+      </select>
+    </div>
+
+    <div id="term-list" class="term-list">
+      <p>লোড হচ্ছে...</p>
+    </div>
+  </main>
+
+  <script type="module" src="js/dictionary.js"></script>
+</body>
+</html>
