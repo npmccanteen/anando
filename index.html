@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0ea5e9" />
+  <title>MedTerm Companion</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>🩺 MedTerm Companion</h1>
+    <div id="auth-area">
+      <button id="login-btn">Google দিয়ে Login</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>প্রথম বর্ষ মেডিকেল সাথী</h2>
+      <p>Anatomy • Physiology • Biochemistry</p>
+    </section>
+
+    <nav class="menu">
+      <a href="dictionary.html">📖 Terminology Dictionary</a>
+      <a href="quiz.html">❓ Quiz Practice</a>
+      <a href="profile.html">👤 My Profile</a>
+    </nav>
+  </main>
+
+  <script type="module">
+    import { loginWithGoogle, watchAuth, logout } from "./js/auth.js";
+
+    const authArea = document.getElementById("auth-area");
+
+    watchAuth((user) => {
+      if (user) {
+        authArea.innerHTML = `
+          <div class="user-chip">
+            <img src="${user.photoURL}" alt="user" class="avatar" />
+            <span>${user.displayName?.split(" ")[0] || "User"}</span>
+            <button id="logout-btn">Logout</button>
+          </div>
+        `;
+        document.getElementById("logout-btn").onclick = logout;
+      } else {
+        authArea.innerHTML = `<button id="login-btn">Google দিয়ে Login</button>`;
+        document.getElementById("login-btn").onclick = loginWithGoogle;
+      }
+    });
+
+    const initialBtn = document.getElementById("login-btn");
+    if (initialBtn) initialBtn.onclick = loginWithGoogle;
+
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("service-worker.js");
+    }
+  </script>
+</body>
+</html>
